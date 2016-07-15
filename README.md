@@ -1,9 +1,15 @@
-# felt-recipe-minimal
+# felt-recipe-standard
 
-This is a minimal recipe for [Felt](https://github.com/cognitom/felt).
+This is a standard recipe for [Felt](https://github.com/cognitom/felt).
 
 ```bash
-$ npm install felt-recipe-minimal
+$ npm install felt-recipe-standard
+```
+
+## Usage via CLI
+
+```bash
+$ felt --recipe standard --src public
 ```
 
 ## Usage via Express
@@ -13,21 +19,13 @@ $ npm install felt-recipe-minimal
 const
   express = require('express'),
   felt = require('felt'),
-  recipe = require('felt-recipe-minimal')
+  recipe = require('felt-recipe-standard')
 
 const
   app = express(),
-  flavor = { src: 'public', watch: true }
+  flavor = { src: 'public' }
 
 app.use(felt(recipe, flavor))
 app.use(express.static('public'))
 app.listen(3000)
-```
-
-## Usage via CLI
-
-Felt CLI will come soon. (but not yet)
-
-```bash
-$ felt --recipe minimal --src public --watch
 ```
