@@ -1,6 +1,6 @@
 {
   "name": "felt-recipe-standard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standard recipe for Felt",
   "main": "felt.config.js",
   "homepage": "https://github.com/cognitom/felt-recipe-standard",
