@@ -6,7 +6,7 @@
 
 const
   rollup = require('felt-rollup'),
-  buble = require('rollup-plugin-babel'),
+  babel = require('rollup-plugin-babel'),
   resolve = require('rollup-plugin-node-resolve'),
   commonjs = require('rollup-plugin-commonjs'),
   postcss = require('felt-postcss'),
