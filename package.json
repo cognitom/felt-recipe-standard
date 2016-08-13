@@ -3,6 +3,9 @@
   "version": "0.2.1",
   "description": "Standard recipe for Felt",
   "main": "felt.config.js",
+  "files": [
+    "felt.config.js"
+  ],
   "homepage": "https://github.com/cognitom/felt-recipe-standard",
   "repository": {
     "type": "git",
